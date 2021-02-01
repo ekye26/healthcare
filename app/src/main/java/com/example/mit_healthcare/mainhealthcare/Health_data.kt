@@ -15,19 +15,19 @@ class Health_data : AppCompatActivity() {
         setContentView(R.layout.health_data)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val menuInflater = menuInflater
-        menuInflater.inflate(R.menu.main, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId) {
-            R.id.menu_logout -> {
-                var a = Intent(this, Health_main::class.java)
-                startActivity(a)
-            }
-        }
-        return super.onOptionsItemSelected(item)
-    }
+//    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+//        val menuInflater = menuInflater
+//        menuInflater.inflate(R.menu.main, menu)
+//        return true
+//    }
+//
+//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+//        when(item.itemId) {
+//            R.id.menu_logout -> {
+//                var a = Intent(this, Health_main::class.java)
+//                startActivity(a)
+//            }
+//        }
+//        return super.onOptionsItemSelected(item)
+//    }
 }
