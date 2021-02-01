@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">HealthCare</string>
+    <string name="login">로그인</string>
+    <string name="sign_up">회원가입</string>
+    <string name="ID">아이디</string>
+    <string name="password">패스워드</string>
+    <string name="id_check">중복확인</string>
+    <string name="password_check">패스워드 재확인</string>
+    <string name="birth">생년월일</string>
+    <string name="male">남</string>
+    <string name="female">여</string>
+    <string name="name">이름</string>
+    <string name="member_infomation">회원 상세정보</string>
+    <string name="small_data">회원정보</string>
+    <string name="height">신장(cm)</string>
+    <string name="weight">몸무게(kg)</string>
+    <string name="activity_percentage">활동정도</string>
+    <string name="activity_0">활동 적음</string>
+    <string name="activity_1">약간 활동적</string>
+    <string name="activity_3">활동적</string>
+    <string name="activity_4">매우 활동적</string>
+    <string name="save_btn">저장하기</string>
+    <string name="todo">TODO</string>
+    <string name="logout">로그아웃</string>
+</resources>
