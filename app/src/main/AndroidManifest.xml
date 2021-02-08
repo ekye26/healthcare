@@ -3,9 +3,8 @@
     package="com.example.mit_healthcare">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -14,18 +13,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MIT_HealthCare">
-        <activity android:name=".MainActivity"/>
 
+        <activity android:name=".MainActivity" />
         <activity android:name=".mainhealthcare.Health_main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".mainhealthcare.Health_data"/>
-        <activity android:name=".mainhealthcare.Health_login"/>
-        <activity android:name=".mainhealthcare.Health_signUp"/>
+        <activity android:name=".mainhealthcare.Health_data" />
+        <activity android:name=".mainhealthcare.Health_login" />
+        <activity android:name=".mainhealthcare.Health_signUp" />
     </application>
 
 </manifest>

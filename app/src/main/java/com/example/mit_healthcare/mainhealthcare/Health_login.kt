@@ -40,7 +40,7 @@ class Health_login : AppCompatActivity() {
         val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
         StrictMode.setThreadPolicy(policy)
 
-        val jdbcURL = "jdbc:postgresql://localhost:5432/server"
+        val jdbcURL = "jdbc:postgresql://:5432/server"
         val username = "postgres"
         val password = "150526"
 
