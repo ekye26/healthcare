@@ -6,17 +6,6 @@
     android:layout_height="match_parent"
     android:layout_gravity="center">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2" />
-
     <ImageView
         android:id="@+id/work_lo"
         android:layout_width="0dp"
@@ -117,7 +106,16 @@
                 android:layout_marginRight="30dp"
                 android:layout_weight="1"
                 android:text="@string/sign_up" />
+
+            <!--Google Sign In 부분-->
+
         </LinearLayout>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/google_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"></com.google.android.gms.common.SignInButton>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
